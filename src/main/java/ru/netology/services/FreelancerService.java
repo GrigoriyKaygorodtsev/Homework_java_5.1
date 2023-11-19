@@ -5,18 +5,15 @@ public class FreelancerService {
         int balance = 0;
         int counter = 0;
         for (int i = 0; i < 12; i++) {
-            if (balance < threshold)  {
- //               работаем
+            if (balance < threshold) {
+                //               работаем
                 balance += income;
                 balance -= expenses;
             } else {
 //                отдыхаем
                 balance -= expenses;
-                balance  /= 3;
+                balance /= 3;
                 counter++;
-
-
-
 
 
             }
